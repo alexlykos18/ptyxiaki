@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		633816BB1CE49EA400C11FDA /* DrumMachineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633816BA1CE49EA400C11FDA /* DrumMachineViewController.swift */; };
+		633816BD1CE49ECD00C11FDA /* PianoKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633816BC1CE49ECD00C11FDA /* PianoKeyboardViewController.swift */; };
 		CE15B9D91CE293CC006CA533 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15B9D81CE293CC006CA533 /* AppDelegate.swift */; };
 		CE15B9DB1CE293CC006CA533 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15B9DA1CE293CC006CA533 /* ViewController.swift */; };
 		CE15B9DE1CE293CC006CA533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE15B9DC1CE293CC006CA533 /* Main.storyboard */; };
 		CE15B9E01CE293CC006CA533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE15B9DF1CE293CC006CA533 /* Assets.xcassets */; };
-		CE15B9E31CE293CC006CA533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE15B9E11CE293CC006CA533 /* LaunchScreen.storyboard */; };
 		CE15B9EE1CE293CC006CA533 /* SwiftPtyxiakiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15B9ED1CE293CC006CA533 /* SwiftPtyxiakiTests.swift */; };
 		CE15B9F91CE293CC006CA533 /* SwiftPtyxiakiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15B9F81CE293CC006CA533 /* SwiftPtyxiakiUITests.swift */; };
 		CE15BA091CE29652006CA533 /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE15BA071CE29652006CA533 /* black.jpg */; };
@@ -36,12 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		633816BA1CE49EA400C11FDA /* DrumMachineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrumMachineViewController.swift; sourceTree = "<group>"; };
+		633816BC1CE49ECD00C11FDA /* PianoKeyboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PianoKeyboardViewController.swift; sourceTree = "<group>"; };
 		CE15B9D51CE293CC006CA533 /* SwiftPtyxiaki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPtyxiaki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE15B9D81CE293CC006CA533 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE15B9DA1CE293CC006CA533 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE15B9DD1CE293CC006CA533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE15B9DF1CE293CC006CA533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE15B9E21CE293CC006CA533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE15B9E41CE293CC006CA533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE15B9E91CE293CC006CA533 /* SwiftPtyxiakiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPtyxiakiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE15B9ED1CE293CC006CA533 /* SwiftPtyxiakiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPtyxiakiTests.swift; sourceTree = "<group>"; };
@@ -103,9 +105,10 @@
 			children = (
 				CE15B9D81CE293CC006CA533 /* AppDelegate.swift */,
 				CE15B9DA1CE293CC006CA533 /* ViewController.swift */,
+				633816BA1CE49EA400C11FDA /* DrumMachineViewController.swift */,
+				633816BC1CE49ECD00C11FDA /* PianoKeyboardViewController.swift */,
 				CE15B9DC1CE293CC006CA533 /* Main.storyboard */,
 				CE15B9DF1CE293CC006CA533 /* Assets.xcassets */,
-				CE15B9E11CE293CC006CA533 /* LaunchScreen.storyboard */,
 				CE15BA061CE29652006CA533 /* image */,
 				CE15B9E41CE293CC006CA533 /* Info.plist */,
 			);
@@ -244,7 +247,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE15BA0A1CE29652006CA533 /* white.jpg in Resources */,
-				CE15B9E31CE293CC006CA533 /* LaunchScreen.storyboard in Resources */,
 				CE15BA091CE29652006CA533 /* black.jpg in Resources */,
 				CE15B9E01CE293CC006CA533 /* Assets.xcassets in Resources */,
 				CE15B9DE1CE293CC006CA533 /* Main.storyboard in Resources */,
@@ -273,7 +275,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE15B9DB1CE293CC006CA533 /* ViewController.swift in Sources */,
+				633816BD1CE49ECD00C11FDA /* PianoKeyboardViewController.swift in Sources */,
 				CE15B9D91CE293CC006CA533 /* AppDelegate.swift in Sources */,
+				633816BB1CE49EA400C11FDA /* DrumMachineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,14 +319,6 @@
 				CE15B9DD1CE293CC006CA533 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CE15B9E11CE293CC006CA533 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE15B9E21CE293CC006CA533 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -500,6 +496,7 @@
 				CE15B9FF1CE293CC006CA533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE15BA001CE293CC006CA533 /* Build configuration list for PBXNativeTarget "SwiftPtyxiakiTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +505,7 @@
 				CE15BA021CE293CC006CA533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE15BA031CE293CC006CA533 /* Build configuration list for PBXNativeTarget "SwiftPtyxiakiUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +514,7 @@
 				CE15BA051CE293CC006CA533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
