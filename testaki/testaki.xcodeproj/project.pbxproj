@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE891B7E1CAEA19E00A3574C /* PGMidi.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE891B771CAEA19E00A3574C /* PGMidi.mm */; };
+		CE891B7F1CAEA19E00A3574C /* PGMidiAllSources.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE891B791CAEA19E00A3574C /* PGMidiAllSources.mm */; };
+		CE891B801CAEA19E00A3574C /* PGMidiFind.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE891B7B1CAEA19E00A3574C /* PGMidiFind.mm */; };
+		CE8DB6AE1C99ED0D00AF8FB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8DB6AD1C99ED0D00AF8FB2 /* AppDelegate.swift */; };
+		CE8DB6B01C99ED0D00AF8FB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8DB6AF1C99ED0D00AF8FB2 /* ViewController.swift */; };
+		CE8DB6B31C99ED0D00AF8FB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8DB6B11C99ED0D00AF8FB2 /* Main.storyboard */; };
+		CE8DB6B51C99ED0D00AF8FB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8DB6B41C99ED0D00AF8FB2 /* Assets.xcassets */; };
+		CE8DB6B81C99ED0D00AF8FB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8DB6B61C99ED0D00AF8FB2 /* LaunchScreen.storyboard */; };
+		CE8DB6C31C99ED0E00AF8FB2 /* testakiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8DB6C21C99ED0E00AF8FB2 /* testakiTests.swift */; };
+		CE8DB6CE1C99ED0E00AF8FB2 /* testakiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8DB6CD1C99ED0E00AF8FB2 /* testakiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE8DB6BF1C99ED0E00AF8FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8DB6A21C99ED0D00AF8FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE8DB6A91C99ED0D00AF8FB2;
+			remoteInfo = testaki;
+		};
+		CE8DB6CA1C99ED0E00AF8FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8DB6A21C99ED0D00AF8FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE8DB6A91C99ED0D00AF8FB2;
+			remoteInfo = testaki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE891B721CAEA19D00A3574C /* testaki-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testaki-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE891B731CAEA19E00A3574C /* iOSVersionDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSVersionDetection.h; sourceTree = "<group>"; };
+		CE891B751CAEA19E00A3574C /* PGArc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGArc.h; sourceTree = "<group>"; };
+		CE891B761CAEA19E00A3574C /* PGMidi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMidi.h; sourceTree = "<group>"; };
+		CE891B771CAEA19E00A3574C /* PGMidi.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PGMidi.mm; sourceTree = "<group>"; };
+		CE891B781CAEA19E00A3574C /* PGMidiAllSources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMidiAllSources.h; sourceTree = "<group>"; };
+		CE891B791CAEA19E00A3574C /* PGMidiAllSources.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PGMidiAllSources.mm; sourceTree = "<group>"; };
+		CE891B7A1CAEA19E00A3574C /* PGMidiFind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMidiFind.h; sourceTree = "<group>"; };
+		CE891B7B1CAEA19E00A3574C /* PGMidiFind.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PGMidiFind.mm; sourceTree = "<group>"; };
+		CE8DB6AA1C99ED0D00AF8FB2 /* testaki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testaki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8DB6AD1C99ED0D00AF8FB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE8DB6AF1C99ED0D00AF8FB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE8DB6B21C99ED0D00AF8FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE8DB6B41C99ED0D00AF8FB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE8DB6B71C99ED0D00AF8FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE8DB6B91C99ED0D00AF8FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8DB6BE1C99ED0E00AF8FB2 /* testakiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testakiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8DB6C21C99ED0E00AF8FB2 /* testakiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testakiTests.swift; sourceTree = "<group>"; };
+		CE8DB6C41C99ED0E00AF8FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8DB6C91C99ED0E00AF8FB2 /* testakiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testakiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8DB6CD1C99ED0E00AF8FB2 /* testakiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testakiUITests.swift; sourceTree = "<group>"; };
+		CE8DB6CF1C99ED0E00AF8FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8DB6A71C99ED0D00AF8FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8DB6BB1C99ED0E00AF8FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8DB6C61C99ED0E00AF8FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE8DB6A11C99ED0D00AF8FB2 = {
+			isa = PBXGroup;
+			children = (
+				CE8DB6AC1C99ED0D00AF8FB2 /* testaki */,
+				CE8DB6C11C99ED0E00AF8FB2 /* testakiTests */,
+				CE8DB6CC1C99ED0E00AF8FB2 /* testakiUITests */,
+				CE8DB6AB1C99ED0D00AF8FB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8DB6AB1C99ED0D00AF8FB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8DB6AA1C99ED0D00AF8FB2 /* testaki.app */,
+				CE8DB6BE1C99ED0E00AF8FB2 /* testakiTests.xctest */,
+				CE8DB6C91C99ED0E00AF8FB2 /* testakiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8DB6AC1C99ED0D00AF8FB2 /* testaki */ = {
+			isa = PBXGroup;
+			children = (
+				CE8DB6AD1C99ED0D00AF8FB2 /* AppDelegate.swift */,
+				CE8DB6AF1C99ED0D00AF8FB2 /* ViewController.swift */,
+				CE8DB6B11C99ED0D00AF8FB2 /* Main.storyboard */,
+				CE8DB6B41C99ED0D00AF8FB2 /* Assets.xcassets */,
+				CE8DB6B61C99ED0D00AF8FB2 /* LaunchScreen.storyboard */,
+				CE8DB6B91C99ED0D00AF8FB2 /* Info.plist */,
+				CE891B731CAEA19E00A3574C /* iOSVersionDetection.h */,
+				CE891B751CAEA19E00A3574C /* PGArc.h */,
+				CE891B761CAEA19E00A3574C /* PGMidi.h */,
+				CE891B771CAEA19E00A3574C /* PGMidi.mm */,
+				CE891B781CAEA19E00A3574C /* PGMidiAllSources.h */,
+				CE891B791CAEA19E00A3574C /* PGMidiAllSources.mm */,
+				CE891B7A1CAEA19E00A3574C /* PGMidiFind.h */,
+				CE891B7B1CAEA19E00A3574C /* PGMidiFind.mm */,
+				CE891B721CAEA19D00A3574C /* testaki-Bridging-Header.h */,
+			);
+			path = testaki;
+			sourceTree = "<group>";
+		};
+		CE8DB6C11C99ED0E00AF8FB2 /* testakiTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE8DB6C21C99ED0E00AF8FB2 /* testakiTests.swift */,
+				CE8DB6C41C99ED0E00AF8FB2 /* Info.plist */,
+			);
+			path = testakiTests;
+			sourceTree = "<group>";
+		};
+		CE8DB6CC1C99ED0E00AF8FB2 /* testakiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE8DB6CD1C99ED0E00AF8FB2 /* testakiUITests.swift */,
+				CE8DB6CF1C99ED0E00AF8FB2 /* Info.plist */,
+			);
+			path = testakiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE8DB6A91C99ED0D00AF8FB2 /* testaki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8DB6D21C99ED0E00AF8FB2 /* Build configuration list for PBXNativeTarget "testaki" */;
+			buildPhases = (
+				CE8DB6A61C99ED0D00AF8FB2 /* Sources */,
+				CE8DB6A71C99ED0D00AF8FB2 /* Frameworks */,
+				CE8DB6A81C99ED0D00AF8FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testaki;
+			productName = testaki;
+			productReference = CE8DB6AA1C99ED0D00AF8FB2 /* testaki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE8DB6BD1C99ED0E00AF8FB2 /* testakiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8DB6D51C99ED0E00AF8FB2 /* Build configuration list for PBXNativeTarget "testakiTests" */;
+			buildPhases = (
+				CE8DB6BA1C99ED0E00AF8FB2 /* Sources */,
+				CE8DB6BB1C99ED0E00AF8FB2 /* Frameworks */,
+				CE8DB6BC1C99ED0E00AF8FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8DB6C01C99ED0E00AF8FB2 /* PBXTargetDependency */,
+			);
+			name = testakiTests;
+			productName = testakiTests;
+			productReference = CE8DB6BE1C99ED0E00AF8FB2 /* testakiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE8DB6C81C99ED0E00AF8FB2 /* testakiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8DB6D81C99ED0E00AF8FB2 /* Build configuration list for PBXNativeTarget "testakiUITests" */;
+			buildPhases = (
+				CE8DB6C51C99ED0E00AF8FB2 /* Sources */,
+				CE8DB6C61C99ED0E00AF8FB2 /* Frameworks */,
+				CE8DB6C71C99ED0E00AF8FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8DB6CB1C99ED0E00AF8FB2 /* PBXTargetDependency */,
+			);
+			name = testakiUITests;
+			productName = testakiUITests;
+			productReference = CE8DB6C91C99ED0E00AF8FB2 /* testakiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8DB6A21C99ED0D00AF8FB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Alexlykos;
+				TargetAttributes = {
+					CE8DB6A91C99ED0D00AF8FB2 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CE8DB6BD1C99ED0E00AF8FB2 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CE8DB6A91C99ED0D00AF8FB2;
+					};
+					CE8DB6C81C99ED0E00AF8FB2 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CE8DB6A91C99ED0D00AF8FB2;
+					};
+				};
+			};
+			buildConfigurationList = CE8DB6A51C99ED0D00AF8FB2 /* Build configuration list for PBXProject "testaki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE8DB6A11C99ED0D00AF8FB2;
+			productRefGroup = CE8DB6AB1C99ED0D00AF8FB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE8DB6A91C99ED0D00AF8FB2 /* testaki */,
+				CE8DB6BD1C99ED0E00AF8FB2 /* testakiTests */,
+				CE8DB6C81C99ED0E00AF8FB2 /* testakiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8DB6A81C99ED0D00AF8FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8DB6B81C99ED0D00AF8FB2 /* LaunchScreen.storyboard in Resources */,
+				CE8DB6B51C99ED0D00AF8FB2 /* Assets.xcassets in Resources */,
+				CE8DB6B31C99ED0D00AF8FB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8DB6BC1C99ED0E00AF8FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8DB6C71C99ED0E00AF8FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8DB6A61C99ED0D00AF8FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8DB6B01C99ED0D00AF8FB2 /* ViewController.swift in Sources */,
+				CE891B7F1CAEA19E00A3574C /* PGMidiAllSources.mm in Sources */,
+				CE891B801CAEA19E00A3574C /* PGMidiFind.mm in Sources */,
+				CE8DB6AE1C99ED0D00AF8FB2 /* AppDelegate.swift in Sources */,
+				CE891B7E1CAEA19E00A3574C /* PGMidi.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8DB6BA1C99ED0E00AF8FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8DB6C31C99ED0E00AF8FB2 /* testakiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8DB6C51C99ED0E00AF8FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8DB6CE1C99ED0E00AF8FB2 /* testakiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE8DB6C01C99ED0E00AF8FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE8DB6A91C99ED0D00AF8FB2 /* testaki */;
+			targetProxy = CE8DB6BF1C99ED0E00AF8FB2 /* PBXContainerItemProxy */;
+		};
+		CE8DB6CB1C99ED0E00AF8FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE8DB6A91C99ED0D00AF8FB2 /* testaki */;
+			targetProxy = CE8DB6CA1C99ED0E00AF8FB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE8DB6B11C99ED0D00AF8FB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8DB6B21C99ED0D00AF8FB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE8DB6B61C99ED0D00AF8FB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8DB6B71C99ED0D00AF8FB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE8DB6D01C99ED0E00AF8FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE8DB6D11C99ED0E00AF8FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE8DB6D31C99ED0E00AF8FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = testaki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Voodoo-Project-Studio.testaki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testaki/testaki-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE8DB6D41C99ED0E00AF8FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = testaki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Voodoo-Project-Studio.testaki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testaki/testaki-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		CE8DB6D61C99ED0E00AF8FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testakiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Voodoo-Project-Studio.testakiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testaki.app/testaki";
+			};
+			name = Debug;
+		};
+		CE8DB6D71C99ED0E00AF8FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testakiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Voodoo-Project-Studio.testakiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testaki.app/testaki";
+			};
+			name = Release;
+		};
+		CE8DB6D91C99ED0E00AF8FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = testakiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Voodoo-Project-Studio.testakiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = testaki;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CE8DB6DA1C99ED0E00AF8FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = testakiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Voodoo-Project-Studio.testakiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = testaki;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8DB6A51C99ED0D00AF8FB2 /* Build configuration list for PBXProject "testaki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8DB6D01C99ED0E00AF8FB2 /* Debug */,
+				CE8DB6D11C99ED0E00AF8FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8DB6D21C99ED0E00AF8FB2 /* Build configuration list for PBXNativeTarget "testaki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8DB6D31C99ED0E00AF8FB2 /* Debug */,
+				CE8DB6D41C99ED0E00AF8FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8DB6D51C99ED0E00AF8FB2 /* Build configuration list for PBXNativeTarget "testakiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8DB6D61C99ED0E00AF8FB2 /* Debug */,
+				CE8DB6D71C99ED0E00AF8FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8DB6D81C99ED0E00AF8FB2 /* Build configuration list for PBXNativeTarget "testakiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8DB6D91C99ED0E00AF8FB2 /* Debug */,
+				CE8DB6DA1C99ED0E00AF8FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE8DB6A21C99ED0D00AF8FB2 /* Project object */;
+}
